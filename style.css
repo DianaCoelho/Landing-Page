@@ -1,0 +1,165 @@
+body{
+	font-family: "Roboto", arial;
+	margin:0;
+	padding: 0;
+	min-height: 100vh;
+	flex-basis: 1;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-basis: 1;
+	flex-direction: column;
+	flex: 1;
+}
+
+.header, .footer {
+	background: #1F2937;
+	color: white;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 48px;
+	padding-right: 240px;
+	padding-left: 240px;
+}
+
+.right {
+	display: flex;
+	justify-content: space-around;
+	gap: 24px;
+}
+
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+	padding: 24px;
+}
+
+#image_placement {
+	width: 500px;
+	height: auto;
+	background: #eeeeee;
+}
+
+.content {
+	display: flex;
+	background: #1F2937;
+	color: #F9FAF8;
+	padding: 96px;
+	padding-right: 240px;
+	padding-left: 240px;
+}
+
+.text_title {
+	font-size: 48px;
+	font-weight: 900;
+	flex-wrap: wrap;
+}
+.text_subtext {
+	font-size: 18px;
+	color: #E5E7EB;
+	flex-wrap: wrap;
+}
+
+.sign_up_one {
+	justify-content: center;
+	background: #3882F6;
+	padding: 6px 14px;
+	font-size: 18px;
+	color: white;
+	border-radius: 10px;
+	margin: 0;
+	border: 2px solid white;
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+	background: white;
+	align-items: center;
+	padding: 48px;
+	justify-content: center;
+}
+
+#top {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+}
+
+.bottom {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-right: 240px;
+	padding-left: 240px;
+	padding: 96px;
+	gap: 25px;
+}
+
+.subtext {
+	flex-wrap: wrap;
+	width: 200px;
+}
+
+.image {
+	width: 200px;
+	height: 200px;
+	border: 5px solid #1F2937;	
+	border-radius: 10%;
+}
+
+.quote{
+	background: #E5E7EB;
+	padding: 96px;
+	padding-right: 240px;
+	padding-left: 240px;
+	font: "light italic";
+	font-size: 36px;
+}
+
+#author{
+	display: flex;
+	font-size: 20px;
+	font-weight: bolder;
+	justify-content: flex-end;
+}
+
+.pop_up{
+	padding-left: 340px;
+	padding-right: 340px;
+	padding-bottom: 96px;
+	padding-top: 96px;
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	background: #3882F6;
+	border-radius: 7px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding: 36px;
+}
+
+.pop_up_text{
+	background: #3882F6;
+	font-size: 18px;
+	color: white;
+}
+
+.pop_title{
+	font-weight: bolder;
+}
